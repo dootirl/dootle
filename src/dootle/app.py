@@ -17,4 +17,4 @@ def create_app():
 
 	from dootle import views
 	app.register_blueprint(views.blueprint)
-	return app;
+	return app
